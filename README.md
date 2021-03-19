@@ -16,4 +16,4 @@ Run the following commands in a terminal
 
 ## Non-localhost environment
 To run against a given environment (`dev`, `test` or `prod`) run the following command and replace the `${environment}`, `${user}` and `${password}` with the environment and login information
->`k6 run -e ENVIRONMENT=${environment} -e USER=${user} -e PASSWORD=${password} src/performance-tests.ts`
+>`k6 run -e ENVIRONMENT=${environment} -e USER=${user} -e PASSWORD=${password} src/performance-tests.js`
